@@ -1,0 +1,264 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(49, 45, 45);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#download {
+    display: none;
+}
+
+#skyhole a{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    padding-right: 7px;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(177, 174, 174);
+}
+
+nav {
+    margin-top: 5px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+#AbominacionLogo {
+    width: 250px;
+    padding: 0px;
+}
+
+#encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url(img-twilight/3.png);
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    padding: 80px;
+    padding-bottom: 0px;
+}
+
+#encabezado button a{
+    text-decoration: none;
+    color: white;
+}
+
+#encabezado button {
+    margin-bottom: 40px;
+    margin-top: 50px;
+    border-radius: 7px;
+    border: 0.5px solid;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+#encabezado button:hover {
+    background-color: rgba(76, 68, 68, 0.466);
+}
+
+#encabezado button a:hover {
+    color: white;
+}
+
+#detalles {
+    padding: 20px;
+    font-size: 14px;
+    background-color: rgba(17, 17, 17, 0.945);
+    color: rgb(207, 196, 196);
+}
+
+#mods {
+    padding: 20px;
+    font-size: 14px;
+    background-color: rgba(20, 20, 20, 0.945);
+    color: rgb(207, 196, 196);
+}
+
+#mods a {
+    text-decoration: none;
+    color: rgb(207, 196, 196);
+}
+
+#mods a:hover {
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#copy {
+    font-size: 10px;
+}
+
+#logo-footer {
+    width: 100px;
+    opacity: 10%;
+}
+
+.trailer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(17, 17, 17);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#trailer-text {
+    color: white;
+    font-size: 19px;
+}
+
+#personajes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#personajes {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(14, 13, 13, 0.945);
+}
+
+#personajes .card {
+    margin-top: 20px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-align: center;
+    
+}
+
+#personajes .per2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#personajes .per {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.carrusel {
+    background-color: rgba(20, 20, 20, 0.945);
+    padding: 10px;
+}
+
+@media (min-width:720px) {
+    #download {
+        display: block;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 10px;
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-top: 0px;
+    }
+
+    #skyhole {
+        margin-top: 20px;
+    }
+
+    nav a {
+        font-size: 17px;
+        padding-right: 10px;
+    }
+
+    #AbominacionLogo {
+        width: 450px;
+        padding: 0px;
+    }
+
+    #detalles {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 17px;
+        padding-left: 190px;
+    }
+
+    #carouselExampleFade {
+        width: 1000px;
+    }
+
+    .carrusel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(20, 20, 20, 0.945);
+    }
+
+    #mods {
+        padding-left: 190px;
+    }
+
+    .trailer iframe {
+        width: 872px;
+        height: 515px;
+    }
+
+    #personajes {
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: rgba(14, 13, 13, 0.945);
+    }
+
+    #personajes .card {
+        margin-right: 20px;
+        background-color: rgb(17, 17, 17);
+        color: white;
+        text-align: center;
+        
+    }
+
+    #personajes .per2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #personajes .per {
+        color: white;
+        padding-bottom: 20px;
+    }
+}

@@ -1,0 +1,50 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(49, 45, 45);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#download {
+    display: none;
+}
+
+#skyhole a{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    padding-right: 7px;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(177, 174, 174);
+}
+
+nav {
+    margin-top: 5px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+#time {
+    color: white;
+}
+
