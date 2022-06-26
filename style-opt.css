@@ -1,0 +1,223 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  background-color: rgb(180, 178, 178);
+}
+
+#download {
+  display: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.568);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#skyhole a {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 40px;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+#presentacion {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(imager-opt/twilight.png);
+  background-position: center center;
+  background-size: cover;
+  color: white;
+}
+
+nav a {
+  padding-right: 7px;
+  font-size: 13px;
+  text-decoration: none;
+  color: rgb(177, 174, 174);
+}
+
+nav {
+  margin-top: 5px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.botond {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#TWFLogo {
+  width: 180px;
+  padding: 0px;
+}
+
+.ver-mas a {
+  text-decoration: none;
+  color: white;
+}
+
+.ver-mas {
+  margin-bottom: 20px;
+  border-radius: 7px;
+  border: 0.5px solid;
+  border-color: white;
+  background-color: rgba(0, 0, 0, 0.473);
+}
+
+.ver-mas:hover {
+  background-color: rgba(76, 68, 68, 0.466);
+}
+
+.ver-mas a:hover {
+  color: white;
+}
+
+#carta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(14, 13, 13, 0.945);
+}
+
+.data h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: white;
+}
+
+footer {
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#copy {
+  font-size: 10px;
+}
+
+#logo-footer {
+  width: 100px;
+  opacity: 10%;
+}
+
+#fotosky {
+  display: none;
+}
+
+.cartas .card {
+  background-color: rgb(17, 17, 17);
+  color: white;
+  text-align: center;
+}
+
+@media (min-width: 720px) {
+  #download {
+    display: block;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 0px;
+  }
+
+  #skyhole {
+    margin-top: 20px;
+  }
+
+  nav a {
+    font-size: 17px;
+    padding-right: 10px;
+  }
+
+  .principal {
+    flex-direction: row;
+    justify-content: center;
+    font-size: 17px;
+    text-align: justify;
+    padding: 200px;
+    padding-bottom: 50px;
+  }
+
+  .botond {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 170px;
+  }
+
+  #TWFLogo {
+    width: 350px;
+    padding-right: 5px;
+    margin-right: 20px;
+  }
+
+  .principal p {
+    padding-left: 10px;
+    margin-left: 20px;
+  }
+
+  .ver-mas {
+    height: 30px;
+    width: 80px;
+    font-size: 10px;
+  }
+
+  .ver-mas a {
+    font-size: 16px;
+  }
+
+  .cartas {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .carta1 {
+    margin-right: 40px;
+  }
+
+  .carta2 {
+    margin-right: 40px;
+  }
+
+  .data h3 {
+    font-size: 28px;
+  }
+}
