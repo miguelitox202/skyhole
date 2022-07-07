@@ -1,0 +1,4 @@
+Sitemap: https://www.skyhole.com/sitemap.xml
+
+User-agent: *
+Allow: /index.html
