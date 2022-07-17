@@ -111,6 +111,17 @@ padding: 20px;
 background-color: rgba(26, 25, 25, 0.795);
 }
 
+.beyond {
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(26, 25, 25, 0.795);
+    margin-top: 20px;
+    }
+
 .down a {
 text-decoration: none;
 color: rgba(255, 255, 255, 0.726);
@@ -229,6 +240,13 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 }
+
+.beyond {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
 
 .down {
 width: 90px;

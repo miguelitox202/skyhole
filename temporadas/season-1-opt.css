@@ -55,7 +55,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-url(img-twilight-opt/3.png);
+url(/SKYHOLE/img-season-1-opt/foto-7.png);
 background-position: center center;
 background-size: cover;
 color: white;
@@ -127,55 +127,6 @@ width: 100px;
 opacity: 10%;
 }
 
-.trailer {
-display: flex;
-flex-direction: column;
-align-items: center;
-background-color: rgb(17, 17, 17);
-padding-top: 40px;
-padding-bottom: 40px;
-}
-
-#trailer-text {
-color: white;
-font-size: 19px;
-}
-
-#personajes {
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
-#personajes {
-padding-top: 40px;
-padding-bottom: 40px;
-background-color: rgba(14, 13, 13, 0.945);
-}
-
-#personajes .card {
-margin-top: 20px;
-background-color: rgb(17, 17, 17);
-color: white;
-text-align: center;
-}
-
-#personajes .per2 {
-display: flex;
-flex-direction: column;
-justify-content: center;
-}
-
-#personajes .per {
-color: white;
-padding-bottom: 20px;
-}
-
-.carrusel {
-background-color: rgba(20, 20, 20, 0.945);
-padding: 10px;
-}
-
 @media (min-width: 720px) {
 #download {
 display: block;
@@ -225,35 +176,5 @@ background-color: rgba(20, 20, 20, 0.945);
 
 #mods {
 padding-left: 190px;
-}
-
-.trailer iframe {
-width: 872px;
-height: 515px;
-}
-
-#personajes {
-justify-content: center;
-padding-top: 40px;
-padding-bottom: 40px;
-background-color: rgba(14, 13, 13, 0.945);
-}
-
-#personajes .card {
-margin-right: 20px;
-background-color: rgb(17, 17, 17);
-color: white;
-text-align: center;
-}
-
-#personajes .per2 {
-display: flex;
-flex-direction: row;
-justify-content: center;
-}
-
-#personajes .per {
-color: white;
-padding-bottom: 20px;
 }
 }
